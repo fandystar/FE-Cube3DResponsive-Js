@@ -29,7 +29,8 @@ input {
 }
 
 #input{
-    margin-top: 20px;
+    margin-top: 20px;    
+    /* full screen not overlapp circle */
 }
 
 #content {

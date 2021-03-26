@@ -1,8 +1,10 @@
 
 body,html{
 	height: 100%;
-   overflow: hidden;
-
+    overflow: hidden;
+    background-color: gainsboro;
+    font-family: "Press Start 2P";
+    color: rgb(6, 98, 184);
 }
  
 #title {
@@ -11,7 +13,8 @@ body,html{
 
 
 .visible {
-   visibility: hidden;
+    visibility:hidden;
+
 }
 
 #title p {
@@ -29,12 +32,13 @@ input {
 }
 
 #input{
+    /* visibility: hidden; */
     margin-top: 20px;    
     /* full screen not overlapp circle */
 }
 
 #content {
-   color :white;
+  
    display: flex;
    font-size: 4vw;
    align-items: center;
@@ -64,7 +68,7 @@ li {
    width: 15vw;
    height: 15vw;
    border-radius: 50%;
-   background: blue;
+   background:lightsteelblue;
   
 }
 
@@ -72,15 +76,15 @@ li {
    width:30vw;
    height: 30vw;
    border-radius: 50%;
-   background: green
+   background:lightsteelblue;
 
 }
 .three {
    width: 22vw;
    height:22vw;
    border-radius: 50%;
-   background: red;
+   background:steelBlue;
    flex-direction: column;
-  
+   color :white;
 }
 

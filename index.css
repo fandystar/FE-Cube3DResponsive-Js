@@ -24,9 +24,8 @@ body,html{
    margin-left: 38vw;   
 }
 
-#input input {
-    outline-color: red ;
-    outline-width: 0px;
+input {
+  font-size: 1.5vw;
 }
 
 

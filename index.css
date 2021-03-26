@@ -41,7 +41,7 @@ body,html{
 }
 
 
-.circle1:hover{
+.satu:hover{
   cursor: pointer;  
 }
 
@@ -49,37 +49,33 @@ li {
     list-style: none;
 }
 
-.circle1 {
-   align-items: center;
-   justify-content: center;
+.circle {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+}
+
+.one {
    width: 15vw;
    height: 15vw;
    border-radius: 50%;
    background: blue;
-   display: flex;
-   flex-direction: column;
-   /* margin: 0; */
+  
 }
 
-.circle2 {
-   align-items: center;
-   justify-content: center;
-   display:flex;
+.two {
    width:30vw;
    height: 30vw;
    border-radius: 50%;
    background: green
 
 }
-.circle3 {
+.three {
    width: 22vw;
    height:22vw;
    border-radius: 50%;
    background: red;
-   align-items:center;
-   justify-content:center;
    flex-direction: column;
-   display:flex
-  
 }
 

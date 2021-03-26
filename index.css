@@ -15,13 +15,13 @@ body,html{
 }
 
 #title p {
-   font-size: 8vw;
+   font-size: 4vw;
    text-align: center;
 }
 
 #input label  {
    font-size: 2vw;
-   margin-left: 35vw;   
+   margin-left: 38vw;   
 }
 
 #input input {

@@ -21,5 +21,3 @@ function getEmail(value) {
     p2.innerHTML = value
 }
 
-console.log(p3)
-console.log(p4)
